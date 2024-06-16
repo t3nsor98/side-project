@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.hero-section {
+    background-color: #350054;
+    color: #ffffff;
+    padding: 5rem 0;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}

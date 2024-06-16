@@ -1,0 +1,33 @@
+.custom-navbar {
+    background-color: #350054;
+}
+
+.custom-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.custom-nav-link,
+.custom-nav-dropdown .dropdown-toggle {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.custom-dropdown-item {
+    color: #350054 !important;
+}
+
+.custom-button {
+    background-color: #110025 !important;
+    border: none;
+    color: #ffffff;
+}
+
+.custom-button:hover {
+    background-color: #22004A !important;
+    color: #ffffff;
+}
+
+.custom-nav-dropdown .dropdown-menu {
+    background-color: #ffffff;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.welcome-section {
+    background-color: #350054;
+    color: #ffffff;
+    padding: 5rem 0;
+    width: 100%;
+    margin: 0;
+}
+
+.welcome-heading {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    animation: fadeIn 1s ease-in-out;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.milliondots {
+    background: linear-gradient(90deg, #110025, rgb(210, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.welcome-text {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.here-we-are {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    opacity: 0.5;
+    animation: fadeIn 2s ease-in-out;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

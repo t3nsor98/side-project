@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.learn-section {
+    background-color: #350054;
+    color: #ffffff;
+}
+
+.learn-img,
+.app-img {
+    animation: fadeIn 1s ease-in-out;
+}
+
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.join-now {
+    animation: bounceIn 1s ease-in-out;
+}
+
+.middle-top {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.middle-bottom {
+    animation: slideIn 2s ease-in-out;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-images img {
+    animation: pulse 1s infinite;
+}
+
+.animated-text {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4CAF50;
+    /* Green color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: text-glow 1.5s ease-in-out infinite alternate;
+}
+
+.scroll-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes text-glow {
+    from {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(65, 10, 91, 0.5), 0 0 20px rgba(76, 175, 80, 0.3), 0 0 30px rgba(76, 175, 80, 0.2);
+    }
+
+    to {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(102, 5, 122, 0.7), 0 0 30px rgba(76, 175, 80, 0.5), 0 0 40px rgba(76, 175, 80, 0.3);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}

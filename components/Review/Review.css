@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.review-section {
+    background-color: #110025;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-text h4 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.read-more-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: #350054;
+    border-color: #350054;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease;
+}
+
+.testimonial h5 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.student-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonial-title p {
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-title p::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .header-text h4 {
+        font-size: 1.8rem;
+    }
+
+    .read-more-button {
+        font-size: 0.9rem;
+    }
+}

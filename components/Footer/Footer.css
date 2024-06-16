@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.footer-section {
+    background-color: #350054;
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.footer-section.scroll-visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.upper-footer {
+    margin-bottom: 40px;
+}
+
+.upper-footer .left {
+    text-align: left;
+}
+
+.upper-footer h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.upper-footer p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ced4da;
+}
+
+.upper-footer .btn-light {
+    color: #350054;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: none;
+}
+
+.lower-footer {
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.lower-footer p {
+    font-size: 0.9rem;
+    color: #ced4da;
+}
+
+.lower-footer .nav {
+    padding-left: 0;
+}
+
+.lower-footer .nav-item {
+    margin-bottom: 10px;
+}
+
+.lower-footer .nav-link {
+    color: #ced4da;
+    text-decoration: none;
+}
+
+.lower-footer .nav-link:hover {
+    text-decoration: underline;
+}
+
+.lower-footer .download-buttons {
+    margin-bottom: 20px;
+}
+
+.lower-footer .store-button {
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.app-screenshot {
+    width: 150px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ced4da;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ced4da;
+}
+
+.social-handles {
+    display: flex;
+}
+
+.social-handles .social-link {
+    color: #ced4da;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.social-handles .social-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    .upper-footer,
+    .lower-footer {
+        text-align: center;
+    }
+
+    .upper-footer .btn-light {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-handles {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
