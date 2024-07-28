@@ -97,7 +97,11 @@ function Learn() {
           </Row>
           <Row className="h-25 middle-bottom d-flex align-items-center animate-on-scroll">
             <Col xs={4}>
-              <Image src="bottom-image.jpg" fluid alt="1k to 15k" />
+              <Image
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2iRezDLfVdYIxa5Am1r6MOz6aM3D0tJPzgg&s"
+                fluid
+                alt="1k to 15k"
+              />
             </Col>
             <Col xs={8} className="text-left">
               <h4>
@@ -120,7 +124,7 @@ function Learn() {
             Become a trader who achieves dreams with confidence.
           </p>
           <Image
-            src="app-screenshot.jpg"
+            src="https://image.winudf.com/v2/image1/Y29tLmFwcC50ZXN0c2VyaWVzLmRlbW9hcHAzX3NjcmVlbl82XzE2NjQzMzAyNDhfMDU4/screen-6.jpg?fakeurl=1&type=.jpg"
             fluid
             className="app-img animate-on-scroll"
             alt="App Screenshot"
