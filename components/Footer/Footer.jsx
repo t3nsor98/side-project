@@ -41,7 +41,7 @@ function Footer() {
         <div className="lower-footer row">
           <div className="col-md-4">
             <img
-              src="https://via.placeholder.com/100x50"
+              src="https://cc-prod.scene7.com/is/image/CCProdAuthor/mascot-logo-design_P1_900x420?$pjpeg$&jpegSize=200&wid=900"
               alt="Company Logo"
               className="footer-logo"
             />
@@ -86,25 +86,25 @@ function Footer() {
             <h4>Download Now</h4>
             <div className="download-buttons">
               <img
-                src="https://via.placeholder.com/150x50"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"
                 alt="Apple Store"
                 className="store-button"
               />
               <img
-                src="https://via.placeholder.com/150x50"
+                src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
                 alt="Google Play Store"
                 className="store-button"
               />
             </div>
             <img
-              src="https://via.placeholder.com/150x300"
+              src="https://image.winudf.com/v2/image1/Y29tLmFwcC50ZXN0c2VyaWVzLmRlbW9hcHAzX3NjcmVlbl82XzE2NjQzMzAyNDhfMDU4/screen-6.jpg?fakeurl=1&type=.jpg"
               alt="App Screenshot"
               className="app-screenshot"
             />
           </div>
         </div>
         <div className="footer-bottom d-flex justify-content-between align-items-center">
-          <p>© Milliondots. 2023 | Designed by zeptt</p>
+          <p>© Milliondots. 2024 | Designed by T3nsor</p>
           <div className="social-handles">
             <a href="#" className="social-link">
               LinkedIn

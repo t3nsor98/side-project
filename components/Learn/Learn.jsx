@@ -61,33 +61,33 @@ function Learn() {
                 housewives and everyone who are passionate about trading.
               </p>
               <div className="profile-images d-flex justify-content-center">
-                {/* Add your profile images here */}
+                {/* Use provided image for profile images */}
                 <Image
-                  src="profile1.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7l0FO6rvBvfooyPnpLPtPN32Vche4fC7BzQ&s"
                   roundedCircle
                   className="profile-img mx-1"
                   alt="Profile 1"
                 />
                 <Image
-                  src="profile2.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7l0FO6rvBvfooyPnpLPtPN32Vche4fC7BzQ&s"
                   roundedCircle
                   className="profile-img mx-1"
                   alt="Profile 2"
                 />
                 <Image
-                  src="profile3.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7l0FO6rvBvfooyPnpLPtPN32Vche4fC7BzQ&s"
                   roundedCircle
                   className="profile-img mx-1"
                   alt="Profile 3"
                 />
                 <Image
-                  src="profile4.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7l0FO6rvBvfooyPnpLPtPN32Vche4fC7BzQ&s"
                   roundedCircle
                   className="profile-img mx-1"
                   alt="Profile 4"
                 />
                 <Image
-                  src="profile5.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7l0FO6rvBvfooyPnpLPtPN32Vche4fC7BzQ&s"
                   roundedCircle
                   className="profile-img mx-1"
                   alt="Profile 5"

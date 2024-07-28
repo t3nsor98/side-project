@@ -68,7 +68,7 @@ function Membership() {
             <div className="additional-info">
               <div className="additional-info-item">
                 <img
-                  src="https://via.placeholder.com/80"
+                  src="https://cdn-icons-png.flaticon.com/512/8068/8068184.png"
                   alt="Learning Method"
                 />
                 <p>
@@ -81,7 +81,7 @@ function Membership() {
             <div className="additional-info">
               <div className="additional-info-item">
                 <img
-                  src="https://via.placeholder.com/80"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2iRezDLfVdYIxa5Am1r6MOz6aM3D0tJPzgg&s"
                   alt="Absolute Basics"
                 />
                 <p>
